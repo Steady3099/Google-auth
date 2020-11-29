@@ -1,0 +1,8 @@
+from django.urls import path, include
+from django.conf.urls import url
+from authapp import views
+# SET THE NAMESPACE!
+app_name = 'login'
+# Be careful setting the name to just /login use userlogin instead!
+urlpatterns = [
+]
